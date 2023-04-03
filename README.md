@@ -1,0 +1,76 @@
+# HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>2023_03_20</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #header{
+            width: 100%;
+            height: 80px;
+            background: #222;
+            color: white;
+        }
+        #logo{
+            width: 40%;
+            height: 80px;
+            background: #474747;
+            float: left;
+        }
+
+        #logo> h1{
+            line-height: 70px;
+            text-align: center;
+        }
+
+        #nav{
+            width: 60%;
+            height: 80px;
+            background: #474747;
+            float: left; 
+        }
+
+        #nav > ul{
+            list-style: none;
+        }
+
+        #nav > ul >li{
+            float: left;
+            width: 25%;
+            height: 80px;
+            text-align: center;
+            line-height: 80px;
+            transition: all 0.3s;
+        }
+
+        #nav > ul >li:hover{
+            float: left;
+            width: 25%;
+            height: 80px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <h1>HOME</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li>Main_menu1</li>
+                <li>Main_menu2</li>
+                <li>Main_menu3</li>
+                <li>Main_menu4</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
